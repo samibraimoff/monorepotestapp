@@ -1,7 +1,7 @@
-import { render, h } from 'preact';
-import Button from "./button"
-
+import React from "react";
+import Button from "./button";
 
 // export Button as MyButton;
+export const test = "some var";
 
-export default Button
+export default Button;

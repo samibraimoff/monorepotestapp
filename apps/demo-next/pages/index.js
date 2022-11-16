@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import * as Button from "shared-ui"
+import Head from "next/head";
+import Button, { test } from "shared-ui";
 
-console.log(Button)
+console.log(test);
+console.log(Button);
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Button text='my button' /> */}
+      <Button text="my button" />
       <main>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -57,8 +58,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -208,5 +208,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
