@@ -1,34 +1,41 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
+
+  .:
+    specifiers: {}
 
   apps/demo-next:
     specifiers:
       next: latest
       react: 18.2.0
       react-dom: 18.2.0
-      shared-ui: workspace:^1.0.0
+      shared-ui: workspace:*
     dependencies:
-      next: 13.0.3_react-dom@18.2.0+react@18.2.0
+      next: 13.0.3_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       shared-ui: link:../../packages/shared-ui
 
   packages/shared-ui:
     specifiers:
+      '@types/node': ^18.11.9
       babel-loader: ^9.1.0
       babel-preset-preact: ^2.0.0
       preact: ^10.11.3
+      react: ^18.2.0
       ts-loader: ^9.4.1
       typescript: ^4.9.3
       webpack: ^5.75.0
       webpack-cli: ^4.10.0
     dependencies:
       preact: 10.11.3
+      react: 18.2.0
     devDependencies:
+      '@types/node': 18.11.9
       babel-loader: 9.1.0_webpack@5.75.0
       babel-preset-preact: 2.0.0
-      ts-loader: 9.4.1_typescript@4.9.3+webpack@5.75.0
+      ts-loader: 9.4.1_vfotqvx6lgcbf3upbs6hgaza4q
       typescript: 4.9.3
       webpack: 5.75.0_webpack-cli@4.10.0
       webpack-cli: 4.10.0_webpack@5.75.0
@@ -146,6 +153,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [android]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -154,6 +162,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -162,6 +171,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -170,6 +180,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -178,6 +189,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [freebsd]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -186,6 +198,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -194,6 +207,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -202,6 +216,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -210,6 +225,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -218,6 +234,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -226,6 +243,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -234,6 +252,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -242,6 +261,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -383,7 +403,7 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webpack-cli/configtest/1.2.0_78c1cd1c404fc7ed0a3af68b1f6f4aa1:
+  /@webpack-cli/configtest/1.2.0_pda42hcaj7d62cr262fr632kue:
     resolution: {integrity: sha512-4FB8Tj6xyVkyqjj1OaTqCjXYULB9FMkqQ8yGrZjRDrYh0nOE+7Lhs45WioWQQMV+ceFlE368Ukhe6xdvJM9Egg==}
     peerDependencies:
       webpack: 4.x.x || 5.x.x
@@ -851,7 +871,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /next/13.0.3_react-dom@18.2.0+react@18.2.0:
+  /next/13.0.3_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-rFQeepcenRxKzeKlh1CsmEnxsJwhIERtbUjmYnKZyDInZsU06lvaGw5DT44rlNp1Rv2MT/e9vffZ8vK+ytwXHA==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -1194,7 +1214,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-loader/9.4.1_typescript@4.9.3+webpack@5.75.0:
+  /ts-loader/9.4.1_vfotqvx6lgcbf3upbs6hgaza4q:
     resolution: {integrity: sha512-384TYAqGs70rn9F0VBnh6BPTfhga7yFNdC5gXbQpDrBj9/KsT4iRkGqKXhziofHOlE2j6YEaiTYVGKKvPhGWvw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1273,7 +1293,7 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 1.2.0_78c1cd1c404fc7ed0a3af68b1f6f4aa1
+      '@webpack-cli/configtest': 1.2.0_pda42hcaj7d62cr262fr632kue
       '@webpack-cli/info': 1.5.0_webpack-cli@4.10.0
       '@webpack-cli/serve': 1.7.0_webpack-cli@4.10.0
       colorette: 2.0.19
